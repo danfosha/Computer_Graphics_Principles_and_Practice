@@ -1,0 +1,9 @@
+﻿<Application x:Class="Computer_Graphics_Principles_and_Practice.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Computer_Graphics_Principles_and_Practice"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
