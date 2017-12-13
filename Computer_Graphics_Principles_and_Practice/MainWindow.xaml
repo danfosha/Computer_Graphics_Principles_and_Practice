@@ -6,7 +6,24 @@
         xmlns:local="clr-namespace:Computer_Graphics_Principles_and_Practice"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
+    <Canvas
+        xmlns= "http://schemas.microsoft.com/netfx/2009/xaml/presentation"
+        xmlns:x= "http://schemas.microsoft.com/winfx/2006/xaml"
+        ClipToBounds="True">
+        <!-- THE SCENE -->
+        <Ellipse
+            Canvas.Left="-10.0" Canvas.Top="-10.0"
+            Width="20.0" Height="20.0"
+            Fill="lightgray" />
+        <!-- DISPLAY TRANSFORMATION -->
+        <Canvas.RenderTransform>
+            <TransformGroup>
+                <TranslateTransform X="9.6" Y="9.6" />
+                <ScaleTransform ScaleX="4.8" ScaleY="4.8"
+                                CenterX="0" CenterY="0"/>
+                
+            </TransformGroup>
+        </Canvas.RenderTransform>
         
-    </Grid>
+    </Canvas>
 </Window>
